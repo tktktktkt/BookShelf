@@ -1,5 +1,14 @@
 source 'https://rubygems.org'
 
+gem 'kaminari'
+gem 'simple_form'
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'devise'
+gem 'devise-bootstrap-views'
+gem 'devise-i18n'
+gem 'devise-i18n-views'
+gem 'jquery-rails' 
+gem 'jquery-ui-rails'
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
